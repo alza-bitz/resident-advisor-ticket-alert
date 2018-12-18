@@ -4,7 +4,7 @@
   clj-http {:mvn/version "3.9.1"}
   cljs-http {:mvn/version "0.1.45"}
   cljs-node-io {:mvn/version "1.1.2"}
-  hickory {:mvn/version "0.7.1-SNAPSHOT"}
+  hickory {:mvn/version "0.7.1-SNAPSHOT"} ; built from node branch of https://github.com/TerjeNorderhaug/hickory fork
   com.cemerick/url {:mvn/version "0.1.1"}}
  :aliases {:dev {:extra-paths ["test"]
                  :extra-deps {org.clojure/tools.namespace {:mvn/version "0.3.0-alpha4"}
